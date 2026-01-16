@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f1b2d, #070d17);
+  color: #e6ecf5;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #e6ecf5;
+  opacity: 0.8;
+}
+
+.navbar nav a:hover {
+  opacity: 1;
+}
+
+/* HERO */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.slogan {
+  font-size: 20px;
+  opacity: 0.8;
+  margin: 15px 0 30px;
+}
+
+.hero-btn {
+  background: #2c3f5f;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+/* WHAT WE DO */
+.what-we-do {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,0.06);
+}
+
+/* CONNECT */
+.connect {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.social-buttons a {
+  background: #2c3f5f;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  text-align: center;
+  opacity: 0.5;
+}
